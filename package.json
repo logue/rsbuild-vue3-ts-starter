@@ -1,0 +1,58 @@
+{
+  "name": "rsbuild-vue3-ts-startar",
+  "version": "0.0.0",
+  "description": "Vue3 Vuetify TypeScript Startar project for Rsbuild.",
+  "license": "MIT",
+  "type": "module",
+  "private": true,
+  "author": {
+    "name": "Logue",
+    "email": "logue@hotmail.co.jp",
+    "url": "https://logue.dev/"
+  },
+  "homepage": "https://github.com/logue/rsbuild-vue3-ts-starter",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:logue/rsbuild-vue3-ts-starter.git"
+  },
+  "bugs": {
+    "url": "https://github.com/logue/rsbuild-vue3-ts-starter/issues"
+  },
+  "engines": {
+    "node": ">=22.0.2",
+    "pnpm": ">=10.2.0"
+  },
+  "scripts": {
+    "dev": "rsbuild dev --open",
+    "clean": "rimraf ./node_modules/.vite",
+    "lint": "eslint . --fix && prettier . -w -u",
+    "build": "run-p type-check \"build-only {@}\" --",
+    "build:clean": "rimraf dist",
+    "preview": "rsbuild preview",
+    "build-only": "rsbuild build",
+    "type-check": "vue-tsc --build --force",
+    "prepare": "husky"
+  },
+  "dependencies": {
+    "pinia": "^3.0.3",
+    "pinia-plugin-persistedstate": "^4.4.1",
+    "vue": "^3.5.17",
+    "vue-router": "^4.5.1"
+  },
+  "devDependencies": {
+    "@rsbuild/core": "^1.4.7",
+    "@rsbuild/plugin-vue": "^1.1.0",
+    "@tsconfig/node-lts": "^22.0.2",
+    "@vue/eslint-config-typescript": "^14.6.0",
+    "@vue/tsconfig": "^0.7.0",
+    "eslint": "^9.31.0",
+    "eslint-plugin-vue": "^10.3.0",
+    "globals": "^16.3.0",
+    "husky": "^9.1.7",
+    "npm-run-all2": "^8.0.4",
+    "prettier": "^3.6.2",
+    "typescript": "^5.8.3",
+    "typescript-eslint": "^8.37.0",
+    "vue-tsc": "^3.0.1"
+  }
+}
