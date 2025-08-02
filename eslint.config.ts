@@ -37,7 +37,7 @@ export default defineConfigWithVueTs(
       'import/resolver': {
         // You will also need to install and configure the TypeScript resolver
         // See also https://github.com/import-js/eslint-import-resolver-typescript#configuration
-        typescript: true,
+        typescript: {},
         node: true,
         'eslint-import-resolver-custom-alias': {
           alias: {
