@@ -1,6 +1,6 @@
 {
   "name": "rsbuild-vue3-ts-startar",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "Vue3 Vuetify TypeScript Startar project for Rsbuild.",
   "license": "MIT",
   "type": "module",
@@ -36,12 +36,12 @@
   "dependencies": {
     "pinia": "^3.0.3",
     "pinia-plugin-persistedstate": "^4.5.0",
-    "vue": "^3.5.19",
+    "vue": "^3.5.20",
     "vue-router": "^4.5.1"
   },
   "devDependencies": {
-    "@rsbuild/core": "^1.4.15",
-    "@rsbuild/plugin-vue": "^1.1.1",
+    "@rsbuild/core": "^1.5.1",
+    "@rsbuild/plugin-vue": "^1.1.2",
     "@tsconfig/node-lts": "^22.0.2",
     "@vue/eslint-config-prettier": "^10.2.0",
     "@vue/eslint-config-typescript": "^14.6.0",
@@ -57,7 +57,7 @@
     "npm-run-all2": "^8.0.4",
     "prettier": "^3.6.2",
     "typescript": "^5.9.2",
-    "typescript-eslint": "^8.40.0",
+    "typescript-eslint": "^8.41.0",
     "vue-tsc": "^3.0.6"
   }
 }
