@@ -1,6 +1,10 @@
-# Vue 3 + TypeScript + Rsbuild Starter
+# 🦀 Vue 3 + TypeScript + Rsbuild Starter
+
+[日本語](./README.ja.md)
 
 This template helps you start developing with Vue 3 and TypeScript on the Rsbuild stack. The template uses Vue 3 `<script setup>` SFCs. See [script setup docs](https://v3.vuejs.org/api/sfc-script-setup.html#sfc-script-setup) for details.
+
+_Just copy your `src` from Vite!_
 
 Includes [vue-router](https://router.vuejs.org/) and [Pinia](https://pinia.vuejs.org/).
 
@@ -36,4 +40,4 @@ When you use this template, try follow the checklist to update your info properl
 - for Vue3
   - [vite-vue3-ts-startar](https://github.com/logue/vite-vue3-ts-starter)
   - [vite-vuetify-ts-starter](https://github.com/logue/vite-vuetify-ts-starter) - With Vuetify3
-  - [vite-element-plus-ts-starter](https://github.com/logue/vite-element-plus-ts-starter) - with Element Plus
+    - [tauri-vuetify-starter](https://github.com/logue/tauri-vuetify-starter) - For multi-language cross-platform desktop application use.

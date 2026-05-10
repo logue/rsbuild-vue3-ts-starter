@@ -1,5 +1,5 @@
 {
-  "name": "rsbuild-vue3-starter",
+  "name": "rsbuild-vue3-ts-starter",
   "version": "0.1.0",
   "description": "Vue3 Vuetify TypeScript Starter project for Rsbuild.",
   "license": "MIT",
@@ -10,13 +10,13 @@
     "email": "logue@hotmail.co.jp",
     "url": "https://logue.dev/"
   },
-  "homepage": "https://github.com/logue/rsbuild-vue3-starter",
+  "homepage": "https://github.com/logue/rsbuild-vue3-ts-starter",
   "repository": {
     "type": "git",
-    "url": "git@github.com:logue/rsbuild-vue3-starter.git"
+    "url": "git@github.com:logue/rsbuild-vue3-ts-starter.git"
   },
   "bugs": {
-    "url": "https://github.com/logue/rsbuild-vue3-starter/issues"
+    "url": "https://github.com/logue/rsbuild-vue3-ts-starter/issues"
   },
   "engines": {
     "node": ">=24"
@@ -67,5 +67,16 @@
     "prettier": "^3.8.3",
     "typescript": "^6.0.3",
     "vue-tsc": "^3.2.8"
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "lint-staged"
+    }
+  },
+  "lint-staged": {
+    "*": "run-s lint:*"
+  },
+  "stackblitz": {
+    "startCommand": "pnpm run test:unit"
   }
 }
