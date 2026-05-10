@@ -1,5 +1,12 @@
 # 🦀 Vue 3 + TypeScript + Rsbuild スターター
 
+[![GitHub stars](https://img.shields.io/github/stars/logue/rsbuild-vue3-ts-starter.svg)](https://github.com/logue/rsbuild-vue3-ts-starter)
+[![GitHub license](https://img.shields.io/github/license/logue/rsbuild-vue3-ts-starter.svg)](https://github.com/logue/rsbuild-vue3-ts-starter/blob/master/LICENSE)
+[![Node.js Version](https://img.shields.io/badge/node-%5E24-brightgreen.svg)](https://nodejs.org/)
+[![pnpm](https://img.shields.io/badge/pnpm-11-pink.svg)](https://pnpm.io/)
+[![Rsbuild](https://img.shields.io/badge/rsbuild-2-orange.svg)](https://rsbuild.rs/)
+[![X Follow](https://img.shields.io/twitter/follow/logue256?style=plastic)](https://x.com/logue256)
+
 [English](./README.md)
 
 このテンプレートは、Rsbuild スタック上で Vue 3 と TypeScript の開発をすぐに始めるためのものです。テンプレートでは Vue 3 の `<script setup>` SFC を使用しています。詳細は [script setup ドキュメント](https://v3.vuejs.org/api/sfc-script-setup.html#sfc-script-setup) を参照してください。

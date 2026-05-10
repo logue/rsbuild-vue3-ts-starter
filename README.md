@@ -1,5 +1,12 @@
 # 🦀 Vue 3 + TypeScript + Rsbuild Starter
 
+[![GitHub stars](https://img.shields.io/github/stars/logue/rsbuild-vue3-ts-starter.svg)](https://github.com/logue/rsbuild-vue3-ts-starter)
+[![GitHub license](https://img.shields.io/github/license/logue/rsbuild-vue3-ts-starter.svg)](https://github.com/logue/rsbuild-vue3-ts-starter/blob/master/LICENSE)
+[![Node.js Version](https://img.shields.io/badge/node-%5E24-brightgreen.svg)](https://nodejs.org/)
+[![pnpm](https://img.shields.io/badge/pnpm-11-pink.svg)](https://pnpm.io/)
+[![Rsbuild](https://img.shields.io/badge/rsbuild-2-orange.svg)](https://rsbuild.rs/)
+[![X Follow](https://img.shields.io/twitter/follow/logue256?style=plastic)](https://x.com/logue256)
+
 [日本語](./README.ja.md)
 
 This template helps you start developing with Vue 3 and TypeScript on the Rsbuild stack. The template uses Vue 3 `<script setup>` SFCs. See [script setup docs](https://v3.vuejs.org/api/sfc-script-setup.html#sfc-script-setup) for details.
