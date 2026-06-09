@@ -1,7 +1,7 @@
 {
   "name": "rsbuild-vue3-ts-starter",
-  "version": "0.1.2",
-  "description": "Vue3 Vuetify TypeScript Starter project for Rsbuild.",
+  "version": "0.2.0",
+  "description": "Vue3 TypeScript Starter project for Rsbuild.",
   "license": "MIT",
   "type": "module",
   "private": true,
@@ -24,13 +24,14 @@
   "packageManager": "pnpm@11.5.2",
   "scripts": {
     "dev": "rsbuild dev --open",
-    "lint": "run-s lint:*",
-    "lint:rslint": "rslint --fix .",
-    "lint:prettier": "prettier \"./**/*.{js,ts,yaml,json,css,sass,scss,htm,html,vue,md}\" -w -u",
-    "lint:biome": "biome format --write",
     "build": "run-p type-check \"build-only {@}\" --",
     "build:clean": "rimraf dist",
     "preview": "rsbuild preview",
+    "skills:update": "npx skills update",
+    "lint": "run-s lint:*",
+    "lint:rslint": "rslint --fix .",
+    "lint:biome": "biome format --write",
+    "lint:prettier": "prettier \"./**/*.{yaml,css,sass,scss,htm,html,vue,md}\" -w -u",
     "test": "rstest",
     "test:watch": "rstest --watch",
     "build-only": "rsbuild build",
@@ -47,7 +48,6 @@
     "@biomejs/biome": "^2.4.16",
     "@rsbuild/core": "^2.0.11",
     "@rsbuild/plugin-vue": "^1.2.9",
-    "@rslib/core": "^0.22.0",
     "@rslint/core": "^0.5.3",
     "@rstest/adapter-rsbuild": "^0.10.3",
     "@rstest/core": "^0.10.3",
@@ -55,25 +55,20 @@
     "@testing-library/jest-dom": "^6.9.1",
     "@testing-library/vue": "^8.1.0",
     "@tsconfig/node-lts": "^24.0.0",
-    "@types/node": "^25.9.1",
+    "@types/node": "^25.9.2",
     "@vue/test-utils": "^2.4.11",
     "@vue/tsconfig": "^0.9.1",
     "globals": "^17.6.0",
-    "happy-dom": "^20.10.1",
+    "happy-dom": "^20.10.2",
     "husky": "^9.1.7",
     "jiti": "^2.7.0",
     "npm-run-all": "^4.1.5",
-    "prettier": "^3.8.3",
+    "prettier": "^3.8.4",
     "typescript": "^6.0.3",
-    "vue-tsc": "^3.3.3"
-  },
-  "husky": {
-    "hooks": {
-      "pre-commit": "lint-staged"
-    }
+    "vue-tsc": "^3.3.4"
   },
   "lint-staged": {
-    "*": "run-s lint:*"
+    "*": "run-s lint:*.{js,ts,yaml,json,css,sass,scss,htm,html,vue,md} --"
   },
   "stackblitz": {
     "startCommand": "pnpm run test:unit"

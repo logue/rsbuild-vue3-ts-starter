@@ -1,5 +1,7 @@
 allowBuilds:
   unrs-resolver: true
+minimumReleaseAgeExclude:
+  - prettier@3.8.4
 onlyBuiltDependencies:
   - core-js
   - unrs-resolver

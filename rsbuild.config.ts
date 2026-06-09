@@ -7,8 +7,8 @@ import { pluginVue } from '@rsbuild/plugin-vue';
 const packageJson = JSON.parse(readFileSync('./package.json', 'utf-8'));
 const buildDate = new Date().toISOString();
 
-console.log('Injected version:', packageJson.version);
-console.log('Injected build date:', buildDate);
+console.debug('Injected version:', packageJson.version);
+console.debug('Injected build date:', buildDate);
 
 export default defineConfig({
   plugins: [pluginVue()],
@@ -21,7 +21,7 @@ export default defineConfig({
       __BUILD_DATE__: JSON.stringify(buildDate),
     },
     entry: {
-      index: './src/main.js',
+      index: './src/main.ts',
     },
   },
   resolve: {

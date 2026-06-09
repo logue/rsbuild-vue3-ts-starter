@@ -30,18 +30,15 @@ importers:
       '@rsbuild/plugin-vue':
         specifier: ^1.2.9
         version: 1.2.9(@rsbuild/core@2.0.11)(@rspack/core@2.0.6(@swc/helpers@0.5.23))(@vue/compiler-sfc@3.5.35)(vue@3.5.35(typescript@6.0.3))
-      '@rslib/core':
-        specifier: ^0.22.0
-        version: 0.22.0(typescript@6.0.3)
       '@rslint/core':
         specifier: ^0.5.3
         version: 0.5.3(jiti@2.7.0)
       '@rstest/adapter-rsbuild':
         specifier: ^0.10.3
-        version: 0.10.3(@rsbuild/core@2.0.11)(@rstest/core@0.10.3(happy-dom@20.10.1))
+        version: 0.10.3(@rsbuild/core@2.0.11)(@rstest/core@0.10.3(happy-dom@20.10.2))
       '@rstest/core':
         specifier: ^0.10.3
-        version: 0.10.3(happy-dom@20.10.1)
+        version: 0.10.3(happy-dom@20.10.2)
       '@testing-library/dom':
         specifier: ^10.4.1
         version: 10.4.1
@@ -55,8 +52,8 @@ importers:
         specifier: ^24.0.0
         version: 24.0.0
       '@types/node':
-        specifier: ^25.9.1
-        version: 25.9.1
+        specifier: ^25.9.2
+        version: 25.9.2
       '@vue/test-utils':
         specifier: ^2.4.11
         version: 2.4.11(@vue/compiler-dom@3.5.35)(@vue/server-renderer@3.5.35(vue@3.5.35(typescript@6.0.3)))(vue@3.5.35(typescript@6.0.3))
@@ -67,8 +64,8 @@ importers:
         specifier: ^17.6.0
         version: 17.6.0
       happy-dom:
-        specifier: ^20.10.1
-        version: 20.10.1
+        specifier: ^20.10.2
+        version: 20.10.2
       husky:
         specifier: ^9.1.7
         version: 9.1.7
@@ -79,81 +76,19 @@ importers:
         specifier: ^4.1.5
         version: 4.1.5
       prettier:
-        specifier: ^3.8.3
-        version: 3.8.3
+        specifier: ^3.8.4
+        version: 3.8.4
       typescript:
         specifier: ^6.0.3
         version: 6.0.3
       vue-tsc:
-        specifier: ^3.3.3
-        version: 3.3.3(typescript@6.0.3)
+        specifier: ^3.3.4
+        version: 3.3.4(typescript@6.0.3)
 
 packages:
 
   '@adobe/css-tools@4.5.0':
     resolution: {integrity: sha512-6OzddxPio9UiWTCemp4N8cYLV2ZN1ncRnV1cVGtve7dhPOtRkleRyx32GQCYSwDYgaHU3USMm84tNsvKzRCa1Q==}
-
-  '@ast-grep/napi-darwin-arm64@0.37.0':
-    resolution: {integrity: sha512-QAiIiaAbLvMEg/yBbyKn+p1gX2/FuaC0SMf7D7capm/oG4xGMzdeaQIcSosF4TCxxV+hIH4Bz9e4/u7w6Bnk3Q==}
-    engines: {node: '>= 10'}
-    cpu: [arm64]
-    os: [darwin]
-
-  '@ast-grep/napi-darwin-x64@0.37.0':
-    resolution: {integrity: sha512-zvcvdgekd4ySV3zUbUp8HF5nk5zqwiMXTuVzTUdl/w08O7JjM6XPOIVT+d2o/MqwM9rsXdzdergY5oY2RdhSPA==}
-    engines: {node: '>= 10'}
-    cpu: [x64]
-    os: [darwin]
-
-  '@ast-grep/napi-linux-arm64-gnu@0.37.0':
-    resolution: {integrity: sha512-L7Sj0lXy8X+BqSMgr1LB8cCoWk0rericdeu+dC8/c8zpsav5Oo2IQKY1PmiZ7H8IHoFBbURLf8iklY9wsD+cyA==}
-    engines: {node: '>= 10'}
-    cpu: [arm64]
-    os: [linux]
-    libc: [glibc]
-
-  '@ast-grep/napi-linux-arm64-musl@0.37.0':
-    resolution: {integrity: sha512-LF9sAvYy6es/OdyJDO3RwkX3I82Vkfsng1sqUBcoWC1jVb1wX5YVzHtpQox9JrEhGl+bNp7FYxB4Qba9OdA5GA==}
-    engines: {node: '>= 10'}
-    cpu: [arm64]
-    os: [linux]
-    libc: [musl]
-
-  '@ast-grep/napi-linux-x64-gnu@0.37.0':
-    resolution: {integrity: sha512-TViz5/klqre6aSmJzswEIjApnGjJzstG/SE8VDWsrftMBMYt2PTu3MeluZVwzSqDao8doT/P+6U11dU05UOgxw==}
-    engines: {node: '>= 10'}
-    cpu: [x64]
-    os: [linux]
-    libc: [glibc]
-
-  '@ast-grep/napi-linux-x64-musl@0.37.0':
-    resolution: {integrity: sha512-/BcCH33S9E3ovOAEoxYngUNXgb+JLg991sdyiNP2bSoYd30a9RHrG7CYwW6fMgua3ijQ474eV6cq9yZO1bCpXg==}
-    engines: {node: '>= 10'}
-    cpu: [x64]
-    os: [linux]
-    libc: [musl]
-
-  '@ast-grep/napi-win32-arm64-msvc@0.37.0':
-    resolution: {integrity: sha512-TjQA4cFoIEW2bgjLkaL9yqT4XWuuLa5MCNd0VCDhGRDMNQ9+rhwi9eLOWRaap3xzT7g+nlbcEHL3AkVCD2+b3A==}
-    engines: {node: '>= 10'}
-    cpu: [arm64]
-    os: [win32]
-
-  '@ast-grep/napi-win32-ia32-msvc@0.37.0':
-    resolution: {integrity: sha512-uNmVka8fJCdYsyOlF9aZqQMLTatEYBynjChVTzUfFMDfmZ0bihs/YTqJVbkSm8TZM7CUX82apvn50z/dX5iWRA==}
-    engines: {node: '>= 10'}
-    cpu: [ia32]
-    os: [win32]
-
-  '@ast-grep/napi-win32-x64-msvc@0.37.0':
-    resolution: {integrity: sha512-vCiFOT3hSCQuHHfZ933GAwnPzmL0G04JxQEsBRfqONywyT8bSdDc/ECpAfr3S9VcS4JZ9/F6tkePKW/Om2Dq2g==}
-    engines: {node: '>= 10'}
-    cpu: [x64]
-    os: [win32]
-
-  '@ast-grep/napi@0.37.0':
-    resolution: {integrity: sha512-Hb4o6h1Pf6yRUAX07DR4JVY7dmQw+RVQMW5/m55GoiAT/VRoKCWBtIUPPOnqDVhbx1Cjfil9b6EDrgJsUAujEQ==}
-    engines: {node: '>= 10'}
 
   '@babel/code-frame@7.29.7':
     resolution: {integrity: sha512-Aup7aUOfpbAUg2ROOJN6Iw5f9DMBlzu0mIkm/malLQFN/YQgO48wCj0Kxa3sEHJvPVFg7siR+qRInwXd2qhQKw==}
@@ -316,19 +251,6 @@ packages:
       '@rsbuild/core': ^1.0.0 || ^2.0.0-0
     peerDependenciesMeta:
       '@rsbuild/core':
-        optional: true
-
-  '@rslib/core@0.22.0':
-    resolution: {integrity: sha512-DGTMBDTSdILac0SmeBWvdYf/ZDn09vXgbJQ3/N1J7i6vBpFGWCCKjARoz1R5jYqr1Z9tLJ1OfOVZktbNY/XXuA==}
-    engines: {node: ^20.19.0 || >=22.12.0}
-    hasBin: true
-    peerDependencies:
-      '@microsoft/api-extractor': ^7
-      typescript: ^5 || ^6
-    peerDependenciesMeta:
-      '@microsoft/api-extractor':
-        optional: true
-      typescript:
         optional: true
 
   '@rslint/core@0.5.3':
@@ -506,6 +428,9 @@ packages:
   '@types/node@25.9.1':
     resolution: {integrity: sha512-xfrlY7UD5rMJk3ZVJP8BNzS28J36YJg+xp+LPXV1TdWxr8uMH5A860QNxYDGQe/ylDSgjxE52Q9VnO7p75tJxg==}
 
+  '@types/node@25.9.2':
+    resolution: {integrity: sha512-G05zqtJhcDLb8uslf5EjCxXg9G1KQxiV8OS0R26IC//Eoyitzqe8z37I7cqvnZlrlSfgocQRfSn/AHBZJJFyGw==}
+
   '@types/whatwg-mimetype@3.0.2':
     resolution: {integrity: sha512-c2AKvDT8ToxLIOUlN51gTiHXflsfIFisS4pO7pDPoKouJCESkhZnEy623gwP9laCy5lnLDAw1vAzu2vM2YLOrA==}
 
@@ -560,8 +485,8 @@ packages:
   '@vue/devtools-shared@8.1.2':
     resolution: {integrity: sha512-X9RyVFYAdkBe4IUf5v48TxBF/6QPmF8CmWrDAjXzfUHrgQ/HGfTC1A6TqgXqZ03ye66l3AD51BAGD69IvKM9sw==}
 
-  '@vue/language-core@3.3.3':
-    resolution: {integrity: sha512-X6p+7nfY7vVT6dQwUJ+v0Jfq/lwIfhL2jMi91dQ3ln4hnlGXlxsDu/FNkeyHYgvYtyQy18ZX76IZy7X4diDbiQ==}
+  '@vue/language-core@3.3.4':
+    resolution: {integrity: sha512-IuHqQ5zGGOE7CXP72VX6A42IVeIzYv4WAhO6arej11TRNqtdZfGyH8Yr2FOCaDX0dSQG+JwULLoFHGY1igYVjQ==}
 
   '@vue/reactivity@3.5.35':
     resolution: {integrity: sha512-tVc+SsHConvh/Lz64qq1pP3rYArBmK42xonovEcxY74SQtvctZodG/zhq54P5dr38cVuw25d27cPNRdlMidpGQ==}
@@ -924,8 +849,8 @@ packages:
   graceful-fs@4.2.11:
     resolution: {integrity: sha512-RbJ5/jmFcNNCcDV5o9eTnBLJ/HszWV0P73bc+Ff4nS/rJj+YaS6IGyiOL0VoBYX+l1Wrl3k63h/KrH+nhJ0XvQ==}
 
-  happy-dom@20.10.1:
-    resolution: {integrity: sha512-awPoqPjx8CgjapJllyDlgzgVHjBExcitKK5ZJkxwhQJyQpHFkyS2bEcqCm7IeW20cQvuCI0cz2Ifq79CJKqtiw==}
+  happy-dom@20.10.2:
+    resolution: {integrity: sha512-5p9Sxis3eowDJKqx90QCsgbNA02XXqJ59NOHvD4V6cxp+rP4d/xOyVx7uY3hS8hiUbY1VeiFH8lbJ81AyuDVLQ==}
     engines: {node: '>=20.0.0'}
 
   has-bigints@1.1.0:
@@ -1307,8 +1232,8 @@ packages:
     resolution: {integrity: sha512-FfR8sjd4em2T6fb3I2MwAJU7HWVMr9zba+enmQeeWFfCbm+UOC/0X4DS8XtpUTMwWMGbjKYP7xjfNekzyGmB3A==}
     engines: {node: ^10 || ^12 || >=14}
 
-  prettier@3.8.3:
-    resolution: {integrity: sha512-7igPTM53cGHMW8xWuVTydi2KO233VFiTNyF5hLJqpilHfmn8C8gPf+PS7dUT64YcXFbiMGZxS9pCSxL/Dxm/Jw==}
+  prettier@3.8.4:
+    resolution: {integrity: sha512-N2MylSdi48+5N/6S5j+maeHbUSIzzZ5uOcX5Hm4QpV8Dkb1HFjfAKTKX6yNPJQD9AhcT3ifHNB66tWTTJDi11Q==}
     engines: {node: '>=14'}
     hasBin: true
 
@@ -1352,22 +1277,6 @@ packages:
 
   rfdc@1.4.1:
     resolution: {integrity: sha512-q1b3N5QkRUWUl7iyylaaj3kOpIT0N2i9MqIEQXP73GVsN9cw3fdx8X63cEmWhJGi2PPCF23Ijp7ktmd39rawIA==}
-
-  rsbuild-plugin-dts@0.22.0:
-    resolution: {integrity: sha512-Oyiu5oJDHWOnBv7yRr8eAGfoEddwxfPqUbAX6HvcJxrnR/h6Zd0VgTBWVTgqALYhLcL2ZdyZ2vwnqfhan4krwA==}
-    engines: {node: ^20.19.0 || >=22.12.0}
-    peerDependencies:
-      '@microsoft/api-extractor': ^7
-      '@rsbuild/core': ^1.0.0 || ^2.0.0-0
-      '@typescript/native-preview': 7.x
-      typescript: ^5 || ^6
-    peerDependenciesMeta:
-      '@microsoft/api-extractor':
-        optional: true
-      '@typescript/native-preview':
-        optional: true
-      typescript:
-        optional: true
 
   rspack-vue-loader@17.5.1:
     resolution: {integrity: sha512-1pXdeqYM95P0T8DO2ZcOCBnfMp62W5IG2c0RICn1rFYjHcja41IYSQLzcdc1uePEq0n4JZwvfR2lVs8wRZuwzA==}
@@ -1616,8 +1525,8 @@ packages:
       vite:
         optional: true
 
-  vue-tsc@3.3.3:
-    resolution: {integrity: sha512-SWUEG7YRUeDJHT7Xsuhf02elYX2gxPzzAII7OxDAh4KNOr4QHQ0Lls0YfnaO5GNd560CwVa2HTfdqmA5MqvRqQ==}
+  vue-tsc@3.3.4:
+    resolution: {integrity: sha512-XA/JqmQwS2GZmfgpjOEGdrKwaTSEuPwxpHa7/t6f4yiGrJb3gVHTPb9wBfByMNZwQ+xDXs41b8gaS2DKsOozUw==}
     hasBin: true
     peerDependencies:
       typescript: '>=5.0.0'
@@ -1690,45 +1599,6 @@ packages:
 snapshots:
 
   '@adobe/css-tools@4.5.0': {}
-
-  '@ast-grep/napi-darwin-arm64@0.37.0':
-    optional: true
-
-  '@ast-grep/napi-darwin-x64@0.37.0':
-    optional: true
-
-  '@ast-grep/napi-linux-arm64-gnu@0.37.0':
-    optional: true
-
-  '@ast-grep/napi-linux-arm64-musl@0.37.0':
-    optional: true
-
-  '@ast-grep/napi-linux-x64-gnu@0.37.0':
-    optional: true
-
-  '@ast-grep/napi-linux-x64-musl@0.37.0':
-    optional: true
-
-  '@ast-grep/napi-win32-arm64-msvc@0.37.0':
-    optional: true
-
-  '@ast-grep/napi-win32-ia32-msvc@0.37.0':
-    optional: true
-
-  '@ast-grep/napi-win32-x64-msvc@0.37.0':
-    optional: true
-
-  '@ast-grep/napi@0.37.0':
-    optionalDependencies:
-      '@ast-grep/napi-darwin-arm64': 0.37.0
-      '@ast-grep/napi-darwin-x64': 0.37.0
-      '@ast-grep/napi-linux-arm64-gnu': 0.37.0
-      '@ast-grep/napi-linux-arm64-musl': 0.37.0
-      '@ast-grep/napi-linux-x64-gnu': 0.37.0
-      '@ast-grep/napi-linux-x64-musl': 0.37.0
-      '@ast-grep/napi-win32-arm64-msvc': 0.37.0
-      '@ast-grep/napi-win32-ia32-msvc': 0.37.0
-      '@ast-grep/napi-win32-x64-msvc': 0.37.0
 
   '@babel/code-frame@7.29.7':
     dependencies:
@@ -1881,17 +1751,6 @@ snapshots:
       - '@vue/compiler-sfc'
       - vue
 
-  '@rslib/core@0.22.0(typescript@6.0.3)':
-    dependencies:
-      '@rsbuild/core': 2.0.11
-      rsbuild-plugin-dts: 0.22.0(@rsbuild/core@2.0.11)(typescript@6.0.3)
-    optionalDependencies:
-      typescript: 6.0.3
-    transitivePeerDependencies:
-      - '@module-federation/runtime-tools'
-      - '@typescript/native-preview'
-      - core-js
-
   '@rslint/core@0.5.3(jiti@2.7.0)':
     dependencies:
       picomatch: 4.0.4
@@ -1978,17 +1837,17 @@ snapshots:
 
   '@rspack/lite-tapable@1.1.1': {}
 
-  '@rstest/adapter-rsbuild@0.10.3(@rsbuild/core@2.0.11)(@rstest/core@0.10.3(happy-dom@20.10.1))':
+  '@rstest/adapter-rsbuild@0.10.3(@rsbuild/core@2.0.11)(@rstest/core@0.10.3(happy-dom@20.10.2))':
     dependencies:
       '@rsbuild/core': 2.0.11
-      '@rstest/core': 0.10.3(happy-dom@20.10.1)
+      '@rstest/core': 0.10.3(happy-dom@20.10.2)
 
-  '@rstest/core@0.10.3(happy-dom@20.10.1)':
+  '@rstest/core@0.10.3(happy-dom@20.10.2)':
     dependencies:
       '@rsbuild/core': 2.0.11
       '@types/chai': 5.2.3
     optionalDependencies:
-      happy-dom: 20.10.1
+      happy-dom: 20.10.2
     transitivePeerDependencies:
       - '@module-federation/runtime-tools'
       - core-js
@@ -2059,6 +1918,10 @@ snapshots:
   '@types/jsesc@2.5.1': {}
 
   '@types/node@25.9.1':
+    dependencies:
+      undici-types: 7.24.6
+
+  '@types/node@25.9.2':
     dependencies:
       undici-types: 7.24.6
 
@@ -2151,7 +2014,7 @@ snapshots:
 
   '@vue/devtools-shared@8.1.2': {}
 
-  '@vue/language-core@3.3.3':
+  '@vue/language-core@3.3.4':
     dependencies:
       '@volar/language-core': 2.4.28
       '@vue/compiler-dom': 3.5.35
@@ -2613,7 +2476,7 @@ snapshots:
 
   graceful-fs@4.2.11: {}
 
-  happy-dom@20.10.1:
+  happy-dom@20.10.2:
     dependencies:
       '@types/node': 25.9.1
       '@types/whatwg-mimetype': 3.0.2
@@ -2981,7 +2844,7 @@ snapshots:
       picocolors: 1.1.1
       source-map-js: 1.2.1
 
-  prettier@3.8.3: {}
+  prettier@3.8.4: {}
 
   pretty-format@27.5.1:
     dependencies:
@@ -3036,13 +2899,6 @@ snapshots:
       supports-preserve-symlinks-flag: 1.0.0
 
   rfdc@1.4.1: {}
-
-  rsbuild-plugin-dts@0.22.0(@rsbuild/core@2.0.11)(typescript@6.0.3):
-    dependencies:
-      '@ast-grep/napi': 0.37.0
-      '@rsbuild/core': 2.0.11
-    optionalDependencies:
-      typescript: 6.0.3
 
   rspack-vue-loader@17.5.1(@rspack/core@2.0.6(@swc/helpers@0.5.23))(@vue/compiler-sfc@3.5.35)(vue@3.5.35(typescript@6.0.3)):
     dependencies:
@@ -3339,10 +3195,10 @@ snapshots:
       '@vue/compiler-sfc': 3.5.35
       pinia: 3.0.4(typescript@6.0.3)(vue@3.5.35(typescript@6.0.3))
 
-  vue-tsc@3.3.3(typescript@6.0.3):
+  vue-tsc@3.3.4(typescript@6.0.3):
     dependencies:
       '@volar/typescript': 2.4.28
-      '@vue/language-core': 3.3.3
+      '@vue/language-core': 3.3.4
       typescript: 6.0.3
 
   vue@3.5.35(typescript@6.0.3):
