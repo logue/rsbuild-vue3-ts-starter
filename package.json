@@ -1,6 +1,6 @@
 {
   "name": "rsbuild-vue3-ts-starter",
-  "version": "0.2.0",
+  "version": "0.2.1",
   "description": "Vue3 TypeScript Starter project for Rsbuild.",
   "license": "MIT",
   "type": "module",
@@ -21,7 +21,7 @@
   "engines": {
     "node": ">=24"
   },
-  "packageManager": "pnpm@11.5.2",
+  "packageManager": "pnpm@11.6.0",
   "scripts": {
     "dev": "rsbuild dev --open",
     "build": "run-p type-check \"build-only {@}\" --",
@@ -41,21 +41,21 @@
   "dependencies": {
     "pinia": "^3.0.4",
     "pinia-plugin-persistedstate": "^4.7.1",
-    "vue": "^3.5.35",
+    "vue": "^3.5.38",
     "vue-router": "^5.1.0"
   },
   "devDependencies": {
     "@biomejs/biome": "^2.4.16",
-    "@rsbuild/core": "^2.0.11",
+    "@rsbuild/core": "^2.0.12",
     "@rsbuild/plugin-vue": "^1.2.9",
-    "@rslint/core": "^0.5.3",
+    "@rslint/core": "^0.6.0",
     "@rstest/adapter-rsbuild": "^0.10.3",
     "@rstest/core": "^0.10.3",
     "@testing-library/dom": "^10.4.1",
     "@testing-library/jest-dom": "^6.9.1",
     "@testing-library/vue": "^8.1.0",
     "@tsconfig/node-lts": "^24.0.0",
-    "@types/node": "^25.9.2",
+    "@types/node": "^25.9.3",
     "@vue/test-utils": "^2.4.11",
     "@vue/tsconfig": "^0.9.1",
     "globals": "^17.6.0",

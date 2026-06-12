@@ -53,3 +53,11 @@ When you use this template, try follow the checklist to update your info properl
   - [vite-vue3-ts-startar](https://github.com/logue/vite-vue3-ts-starter)
   - [vite-vuetify-ts-starter](https://github.com/logue/vite-vuetify-ts-starter) - With Vuetify3
     - [tauri-vuetify-starter](https://github.com/logue/tauri-vuetify-starter) - For multi-language cross-platform desktop application use.
+
+## 🎨 Crafted for Developers
+
+This template is built with a focus on **UI/UX excellence** and **modern developer experience**. Maintaining it involves constant testing and updates to ensure everything works seamlessly.
+
+If you appreciate the attention to detail in this project, a small sponsorship would go a long way in supporting my work across the Vue.js and Metaverse ecosystems.
+
+[![GitHub Sponsors](https://img.shields.io/github/sponsors/logue?label=Sponsor&logo=github&color=ea4aaa)](https://github.com/sponsors/logue)
